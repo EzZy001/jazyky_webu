@@ -1,0 +1,270 @@
+body {
+    background-color:rgb(175, 222, 205);
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ciara {
+    height: 1px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: none;
+    background-color: black;
+}
+
+/* MENU */
+header {
+    z-index: 1000;
+    width: 100%;
+    background-color: rgb(69, 64, 64);
+    margin-top: 0px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+}
+
+header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header li {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+header a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+header li:hover{
+    background-color: rgb(156, 156, 156); 
+}
+
+/* KONTENT - uvodny obrazok */
+
+.img-jablko {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+
+.img-jablko img {
+    width: 500px;
+    height: auto;
+}
+
+.img-jablko .jablko-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+
+/* cast citat */
+
+.quote-text .nadpis-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text .text-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+.quote-text .autor-quote {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+
+/* sekcia Obsah */
+#obsah-nadpis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sekcia-obsah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.sekcia-obsah .obsah-1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: grey;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.sekcia-obsah .obsah-1 p {
+    color: rgb(41, 26, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.sekcia-obsah .obsah-2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgb(158, 86, 86);
+    padding: 1%;
+    margin-top: 2%;
+    text-align: right;
+}
+
+.sekcia-obsah .obsah-2 p {
+    color: rgb(41, 26, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.src-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 10%;
+    height: 30px;
+    border-radius: 15px;
+    margin-left:auto;
+}
+
+.src-btn a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.src-btn a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.714);
+}
+
+/* sekcia galeria */
+
+#galeria-nadpis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria {
+    display: flex;     
+    justify-content: center;            
+    gap: 10px;                     
+}
+
+.galeria div {
+    width: 200px;                 
+    height: 200px;                
+    overflow: hidden;              
+}
+
+.galeria img {
+    width: 100%;                   
+    height: 100%;                  
+    object-fit: cover;             
+}
+
+/* kontakt */
+
+#kontakt-nadpis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontaktne-udaje{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.kontaktne-udaje form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.kontaktne-udaje form input {
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.kontaktne-udaje form textarea {
+    margin-bottom: 10px;
+    height: 100px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.kontaktne-udaje form #kontakt-sbmt {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 30%;
+}
+
+.kontaktne-udaje form #kontakt-sbmt:hover {
+    background-color: rgb(64, 58, 58);
+    cursor: pointer;
+}
+
+/* footer */
+
+footer p{
+    color: grey;
+    margin-top: 5%;
+    margin-left: 20%;
+}
